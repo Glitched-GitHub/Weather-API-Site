@@ -128,12 +128,12 @@ const createWeatherCard = (cityName, weatherItem, index) => {
                         <p>Humidity: ${weatherItem.main.humidity}%</p>
                     </div>
                     <div class="weather__icon" id="weather__icon">
-                        <img src="http://openweathermap.org/img/wn/${weatherItem.weather[0].icon}@4x.png" alt="${weatherItem.weather[0].description} Icon">
+                        <img src="https://openweathermap.org/img/wn/${weatherItem.weather[0].icon}@4x.png" alt="${weatherItem.weather[0].description} Icon">
                         <p>${weatherItem.weather[0].description}</p>`
         } else {
             return `<div class="card">
                         <h2 id="${index}">(${weatherItem.dt_txt.split(" ")[0]})</h2>
-                        <img src="http://openweathermap.org/img/wn/${weatherItem.weather[0].icon}@2x.png" alt="${weatherItem.weather[0].description} Icon">
+                        <img src="https://openweathermap.org/img/wn/${weatherItem.weather[0].icon}@2x.png" alt="${weatherItem.weather[0].description} Icon">
                         <p>Temp: ${((weatherItem.main.temp - 273.15) * (9/5) + 32).toFixed(1)}°F</p>
                         <p>Wind: ${weatherItem.wind.speed} M/S</p>
                         <p>Humidity: ${weatherItem.main.humidity}%</p>`    
@@ -147,12 +147,12 @@ const createWeatherCard = (cityName, weatherItem, index) => {
                         <p>Humidity: ${weatherItem.main.humidity}%</p>
                     </div>
                     <div class="weather__icon" id="weather__icon">
-                        <img src="http://openweathermap.org/img/wn/${weatherItem.weather[0].icon}@4x.png" alt="${weatherItem.weather[0].description} Icon">
+                        <img src="https://openweathermap.org/img/wn/${weatherItem.weather[0].icon}@4x.png" alt="${weatherItem.weather[0].description} Icon">
                         <p>${weatherItem.weather[0].description}</p>`
         } else {
             return `<div class="card">
                         <h2 id="${index}">(${weatherItem.dt_txt.split(" ")[0]})</h2>
-                        <img src="http://openweathermap.org/img/wn/${weatherItem.weather[0].icon}@2x.png" alt="${weatherItem.weather[0].description} Icon">
+                        <img src="https://openweathermap.org/img/wn/${weatherItem.weather[0].icon}@2x.png" alt="${weatherItem.weather[0].description} Icon">
                         <p>Temp: ${(weatherItem.main.temp - 273.15).toFixed(1)}°C</p>
                         <p>Wind: ${weatherItem.wind.speed} M/S</p>
                         <p>Humidity: ${weatherItem.main.humidity}%</p>`    
