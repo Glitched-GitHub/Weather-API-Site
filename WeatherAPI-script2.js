@@ -25,7 +25,7 @@ async function searchLocation() {
     const location = cityInput.value.trim();
 
     if (location) {
-        const apiGeoLocation = `https://proxy.cors.sh/http://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=1&appid=${apiKey}`;
+        const apiGeoLocation = `https://corsproxy.io/http://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=1&appid=${apiKey}`;
     
         const getGeoLocation = await fetch(apiGeoLocation);
         const geoLocation = await getGeoLocation.json();
@@ -53,7 +53,7 @@ function userLocation() {
             
             const {latitude, longitude} = position.coords;
 
-            const reverseGeoLocation = `https://proxy.cors.sh/http://api.openweathermap.org/geo/1.0/reverse?lat=${latitude}&lon=${longitude}&limit=1&appid=${apiKey}`;
+            const reverseGeoLocation = `https://corsproxy.io/http://api.openweathermap.org/geo/1.0/reverse?lat=${latitude}&lon=${longitude}&limit=1&appid=${apiKey}`;
             
             const getReverseLocation = await fetch(reverseGeoLocation);
             const reverseLocation = await getReverseLocation.json();
@@ -74,7 +74,7 @@ function userLocation() {
 
 async function getCoordinates(name, lat, lon) {
     
-    const apiWeatherInfo = `https://proxy.cors.sh/http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}`;
+    const apiWeatherInfo = `https://corsproxy.io/http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}`;
 
     const getWeatherInfo = await fetch(apiWeatherInfo);
     
@@ -128,12 +128,12 @@ const createWeatherCard = (cityName, weatherItem, index) => {
                         <p>Humidity: ${weatherItem.main.humidity}%</p>
                     </div>
                     <div class="weather__icon" id="weather__icon">
-                        <img src="https://proxy.cors.sh/http://openweathermap.org/img/wn/${weatherItem.weather[0].icon}@4x.png" alt="${weatherItem.weather[0].description} Icon">
+                        <img src="https://corsproxy.io/http://openweathermap.org/img/wn/${weatherItem.weather[0].icon}@4x.png" alt="${weatherItem.weather[0].description} Icon">
                         <p>${weatherItem.weather[0].description}</p>`
         } else {
             return `<div class="card">
                         <h2 id="${index}">(${weatherItem.dt_txt.split(" ")[0]})</h2>
-                        <img src="https://proxy.cors.sh/http://openweathermap.org/img/wn/${weatherItem.weather[0].icon}@2x.png" alt="${weatherItem.weather[0].description} Icon">
+                        <img src="https://corsproxy.io/http://openweathermap.org/img/wn/${weatherItem.weather[0].icon}@2x.png" alt="${weatherItem.weather[0].description} Icon">
                         <p>Temp: ${((weatherItem.main.temp - 273.15) * (9/5) + 32).toFixed(1)}°F</p>
                         <p>Wind: ${weatherItem.wind.speed} M/S</p>
                         <p>Humidity: ${weatherItem.main.humidity}%</p>`    
@@ -147,12 +147,12 @@ const createWeatherCard = (cityName, weatherItem, index) => {
                         <p>Humidity: ${weatherItem.main.humidity}%</p>
                     </div>
                     <div class="weather__icon" id="weather__icon">
-                        <img src="https://proxy.cors.sh/http://openweathermap.org/img/wn/${weatherItem.weather[0].icon}@4x.png" alt="${weatherItem.weather[0].description} Icon">
+                        <img src="https://corsproxy.io/http://openweathermap.org/img/wn/${weatherItem.weather[0].icon}@4x.png" alt="${weatherItem.weather[0].description} Icon">
                         <p>${weatherItem.weather[0].description}</p>`
         } else {
             return `<div class="card">
                         <h2 id="${index}">(${weatherItem.dt_txt.split(" ")[0]})</h2>
-                        <img src="https://proxy.cors.sh/http://openweathermap.org/img/wn/${weatherItem.weather[0].icon}@2x.png" alt="${weatherItem.weather[0].description} Icon">
+                        <img src="https://corsproxy.io/http://openweathermap.org/img/wn/${weatherItem.weather[0].icon}@2x.png" alt="${weatherItem.weather[0].description} Icon">
                         <p>Temp: ${(weatherItem.main.temp - 273.15).toFixed(1)}°C</p>
                         <p>Wind: ${weatherItem.wind.speed} M/S</p>
                         <p>Humidity: ${weatherItem.main.humidity}%</p>`    
