@@ -123,7 +123,7 @@ const createWeatherCard = (cityName, weatherItem, index) => {
             return `<div class="weather__details" id="weather__details">
                         <!-- Weather Data Goes Here From JS -->
                         <h2>${cityName} (${weatherItem.dt_txt.split(" ")[0]})</h2>
-                        <p>Temperature: ${((weatherItem.main.temp - 273.15) * (9/5) + 32).toFixed(1)}°F°C</p>
+                        <p>Temperature: ${((weatherItem.main.temp - 273.15) * (9/5) + 32).toFixed(1)}°F</p>
                         <p>Wind Speed: ${weatherItem.wind.speed} M/S</p>
                         <p>Humidity: ${weatherItem.main.humidity}%</p>
                     </div>
