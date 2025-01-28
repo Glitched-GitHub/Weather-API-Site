@@ -16,12 +16,12 @@ The Weather Forecast App is a sleek, user-friendly web application that lets use
 
 **Home Page**
 
-![Screenshot 2025-01-28 at 22-56-02 Get Weather](https://github.com/user-attachments/assets/493698d7-0e0f-43d6-8e53-d9b8d91241f6)
+![Screenshot 2025-01-28 at 22-56-02 Get Weather](https://github.com/user-attachments/assets/cf8c5c43-16b2-417e-9538-84db03f99589)
 
 **Weather Forecast**
 
-![Screenshot 2025-01-28 at 22-45-16 Get Weather](https://github.com/user-attachments/assets/b272498a-57e2-4c6b-8759-1e267b4f57ef)
-![Screenshot 2025-01-28 at 22-45-52 Get Weather](https://github.com/user-attachments/assets/15163b14-62cf-4e08-af0f-f4d57c41fa36)
+![Screenshot 2025-01-28 at 22-45-52 Get Weather](https://github.com/user-attachments/assets/cd4879dc-924b-4815-bfa5-d3c71a50554a)
+![Screenshot 2025-01-28 at 22-45-16 Get Weather](https://github.com/user-attachments/assets/0a77f68c-eb32-4a54-a8a1-08b8d030d330)
 
 🔧 **Built With**
  - HTML5: Provides the structure for the app.
