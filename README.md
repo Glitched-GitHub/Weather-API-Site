@@ -1,46 +1,44 @@
-# Weather-API-Site
+🌤 **Weather Forecast App**
 
-**Weather App Live Demo**
 
-https://glitched-github.github.io/Weather-API-Site/
+🌟 **Overview**
 
-**Project Description**
+The Weather Forecast App is a sleek, user-friendly web application that lets users:
+ 1. Enter a city name or use their current location to get weather information.
+ 2. View the current weather and a 4-day forecast for the specified location.
+ 3. Toggle between Celsius (°C) and Fahrenheit (°F) for temperature display.
 
-- Overview:
+🚀 **Live Demo**
 
-  A Weather App that displays the current weather conditions as well as a forecast of future days based off an input location or the users current location.
+ https://glitched-github.github.io/Weather-API-Site/
 
-- Goals:
+📸 **Screenshots**
 
-  To gain better understanding of Javascript and how to use API's.
+**Home Page**
 
-**Programming Languages Used**
+![Screenshot 2025-01-28 at 22-56-02 Get Weather](https://github.com/user-attachments/assets/493698d7-0e0f-43d6-8e53-d9b8d91241f6)
 
-- Primary Language:
+**Weather Forecast**
 
-  Javasript
+![Screenshot 2025-01-28 at 22-45-16 Get Weather](https://github.com/user-attachments/assets/b272498a-57e2-4c6b-8759-1e267b4f57ef)
+![Screenshot 2025-01-28 at 22-45-52 Get Weather](https://github.com/user-attachments/assets/15163b14-62cf-4e08-af0f-f4d57c41fa36)
 
-- Frameworks and Libraries:
+🔧 **Built With**
+ - HTML5: Provides the structure for the app.
+ - CSS3: Used for styling, responsive design, and animations.
+ - JavaScript (ES6): Implements dynamic functionality and API integration.
+ - OpenWeather API: Fetches real-time weather data.
 
-  No Frameworks or Libraries used.
+🎮 **Features**
 
-**Project Duration**
+ - 🌍 Search by Location: Enter a city name (e.g., "London" or "Tokyo") to get weather information.
+ - 📍 Current Location: Use the "Use Current Location" button to get weather data for your current position.
+ - 🔮 5-Day Forecast: Displays the current weather and forecast for the next 4 days.
+ - 🌡️ Temperature Unit Toggle: Easily switch between Celsius and Fahrenheit using a slider switch.
+ - 📱 Responsive Design: Optimized for mobile, tablet, and desktop.
 
-- Start Date:
+📦 **Installation & Usage**
 
-  6th August 2024
-
-- End Date:
-
-  11th August 2024
-
-**Project Challenges and Solutions**
-
-- Challenge:
-
-  One of the challenges i faced was with my understanding of Async/Await functions and how they functioned.
-
-- Solution:
-
-  To get a better understanding of them i researched multiple ways to use them so i had a broad range of ways to combine into my own method that fit my needs.
-
+Prerequisites
+ - A modern web browser.
+ - A free API key from [OpenWeather](https://openweathermap.org/).
